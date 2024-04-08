@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Users\sreer\.nvm\versions\node\v18.18.2\bin\node.exe C:\Users\sreer\.nvm\versions\node\v18.18.2\bin\node_modules\yarn\bin\yarn.js add --dev hardhat
+
+PATH: 
+  C:\Users\sreer\.nvm\versions\node\v18.18.2\bin;C:\Users\sreer\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sreer\bin;C:\Users\sreer\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\starship\bin;C:\Program Files\dotnet;C:\Program Files\Sublime Text;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Maven\apache-maven-3.8.7\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\PuTTY;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Docker\Docker\resources\bin;C:\Users\sreer\AppData\Local\pnpm;C:\Users\sreer\scoop\shims;C:\Users\sreer\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\sreer\AppData\Local\Programs\oh-my-posh\bin;C:\Users\sreer\AppData\Local\Microsoft\WindowsApps;C:\Users\sreer\AppData\Roaming\npm;C:\Program Files\Maven\apache-maven-3.8.7\bin\bin;C:\Program Files\Ja;C:\Users\sreer\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\CMake\bin;C:\protoc-21.9-win64\bin;C:\Users\sreer\.cargo\bin;C:\Users\sreer\AppData\Local\pnpm;C:\Users\sreer\scoop\shims;C:\Users\sreer\AppData\Local\Microsoft\WindowsApps;C:\Users\sreer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\sreer\AppData\Local\Programs\oh-my-posh\bin;C:\Users\sreer\AppData\Local\Microsoft\WindowsApps;C:\Users\sreer\AppData\Roaming\npm;C:\Program Files\Maven\apache-maven-3.8.7\bin\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\sreer\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\sreer\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\sreer\.bun\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\sreer\Desktop\project\node_modules\@nomicfoundation\solidity-analyzer-win32-x64-msvc\solidity-analyzer.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+      "@openzeppelin/contracts": "^5.0.2",
+      "hardhat": "^2.22.1"
+    },
+    "dependencies": {
+      "dotenv": "^16.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
